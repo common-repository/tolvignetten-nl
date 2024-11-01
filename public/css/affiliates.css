@@ -1,0 +1,14 @@
+/* Affiliate CSS */
+
+.ta-affiliate-logo{
+    width: auto;
+    height: 21px;
+    z-index: 9999 !important;
+}
+
+@media (max-width: 991px){
+    .tt-header .ta-affiliate-logo{
+        margin-top: 25px !important;
+        margin-left: 85px !important;
+    }
+}

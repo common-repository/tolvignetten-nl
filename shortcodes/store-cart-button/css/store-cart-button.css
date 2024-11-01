@@ -1,0 +1,34 @@
+.tolvignetten-cart-button{
+    position: relative !important;
+    padding: 0 !important;
+    width: 30px !important;
+    display: inline-block !important;
+}
+
+.tolvignetten-cart-button span.badge{
+    position: absolute;
+    font-size: 11px;
+    right: -8px;
+    text-align: center;
+    top: -8px;
+    border: 1px solid #fff;
+    background-color: #E30713;
+    color: #fff;
+    
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.tolvignetten-cart-button span.badge.hide{
+    display: none;
+}
+
+.tolvignetten-cart-button i{
+    font-size: 25px;
+    color: #000;
+}
+
+.tolvignetten-cart-button.empty{
+    display: none !important;
+}

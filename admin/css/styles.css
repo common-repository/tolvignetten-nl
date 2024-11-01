@@ -1,0 +1,61 @@
+/* Configuration page */
+ul.tolvignetten-configuration-summary{
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+ul.tolvignetten-configuration-summary > li{
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-bottom-color: #ddd;
+    margin: 0;
+    padding: 3px 5px 15px 5px;
+}
+
+ul.tolvignetten-configuration-summary > li > ul{
+    margin-left: 18px !important;
+    list-style: inside !important;
+}
+
+ul.tolvignetten-configuration-summary > li > ul li{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+ul.tolvignetten-configuration-summary > li > ul > li > ul{
+    margin-left: 25px !important;
+    list-style: inside !important;
+}
+
+ul.tolvignetten-configuration-summary li.separator{
+    margin: 5px 0 !important;
+    background-color: transparent;
+    border: none;
+}
+
+ul.tolvignetten-configuration-summary h3{
+    font-size: 17px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0 15px 8px;
+}
+
+ul.tolvignetten-configuration-summary h4{
+    display: inline-block;
+    padding: 0 0 5px 0 !important;
+    margin: 0 !important;
+    font-size: 15px;
+}
+
+.tolvignetten-configuration-summary .type{color:#009;}
+.tolvignetten-configuration-summary .default-value{color:#888;}
+.tolvignetten-configuration-summary li p{padding: 0 0 3px 15px;margin:0;}
+.tolvignetten-configuration-summary li .underline{text-decoration:underline;}
+
+.tolvignetten-configuration-summary table{width:95%;max-width:800px;border-collapse:collapse;margin: 10px 0 10px 18px;}
+.tolvignetten-configuration-summary table thead tr th{padding-top:10px;padding-bottom:10px;}
+.tolvignetten-configuration-summary table tr th,
+.tolvignetten-configuration-summary table tr td{padding:2px 3px;padding-right:20px;vertical-align:top;text-align:left;}
+.tolvignetten-configuration-summary table tr td p{padding-left: 0;margin-left: 0;}
+.tolvignetten-configuration-summary table thead tr th:nth-child(1){width:1%;}
+.tolvignetten-configuration-summary table thead tr th:nth-child(2){width:1%;}
